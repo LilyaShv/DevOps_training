@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  quakewatch:
+    build: .
+    container_name: quakewatch-app
+    ports:
+      - "5000:5000"
