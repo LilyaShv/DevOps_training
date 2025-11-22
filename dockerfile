@@ -1,6 +1,6 @@
 FROM python:3.11-slim
 
-WORKDIR /DevOps_training
+WORKDIR /app
 
 RUN pip install flask
 
