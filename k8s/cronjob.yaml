@@ -1,0 +1,21 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: quakewatch-cron
+spec:
+  schedule: "*/5 * * * *"   # every 5 minutes
+  jobTemplate:
+    spec:
+      template:
+        metadata:
+          labels:
+            job: quakewatch-cron
+        spec:
+          containers:
+            - name: quakewatch-cron
+              image: busybox
+              args:
+                - /bin/sh
+                - -c
+                - "echo 'Hello from Kubernetes CronJob at $(date)'"
+          restartPolicy: OnFailure
