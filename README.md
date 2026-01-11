@@ -62,7 +62,6 @@ Raw Kubernetes manifests are kept under the `k8s/` directory for reference, whil
 ## 5. Docker
 
 ### Build Docker Image
-```bash
 docker build -t lilyashved/devops_training:1.0 -f docker/Dockerfile .
 
 Run with Docker
