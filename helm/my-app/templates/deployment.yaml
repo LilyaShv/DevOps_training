@@ -1,45 +1,46 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: quakewatch-deployment
+  name: {{ .Release.Name }}-deployment
   labels:
-    app: quakewatch
+    app: {{ .Release.Name }}
 spec:
-  replicas: 2
+  replicas: {{ .Values.replicaCount }}
   selector:
     matchLabels:
-      app: quakewatch
+      app: {{ .Release.Name }}
   template:
     metadata:
       labels:
-        app: quakewatch
+        app: {{ .Release.Name }}
     spec:
       containers:
-        - name: quakewatch-container
-          image: lilyashved/devops_training:1.0
+        - name: {{ .Release.Name }}-container
+          image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
-            - containerPort: 5000
+            - containerPort: {{ .Values.containerPort }}
           envFrom:
             - configMapRef:
-                name: quakewatch-config
+                name: {{ .Values.configMap.name }}
             - secretRef:
-                name: quakewatch-secret
+                name: {{ .Values.secret.name }}
           resources:
             requests:
-              cpu: "100m"
-              memory: "128Mi"
+              cpu: {{ .Values.resources.requests.cpu }}
+              memory: {{ .Values.resources.requests.memory }}
             limits:
-              cpu: "500m"
-              memory: "256Mi"
+              cpu: {{ .Values.resources.limits.cpu }}
+              memory: {{ .Values.resources.limits.memory }}
           livenessProbe:
             httpGet:
               path: /
-              port: 5000
-            initialDelaySeconds: 10
-            periodSeconds: 10
+              port: {{ .Values.containerPort }}
+            initialDelaySeconds: {{ .Values.probes.liveness.initialDelaySeconds }}
+            periodSeconds: {{ .Values.probes.liveness.periodSeconds }}
           readinessProbe:
             httpGet:
               path: /
-              port: 5000
-            initialDelaySeconds: 5
-            periodSeconds: 5
+              port: {{ .Values.containerPort }}
+            initialDelaySeconds: {{ .Values.probes.readiness.initialDelaySeconds }}
+            periodSeconds: {{ .Values.probes.readiness.periodSeconds }}
