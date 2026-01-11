@@ -38,3 +38,5 @@ docker run -p 5000:5000 lilyashved/devops_training:1.0
 ## 7. Docker volumes 
 We use a Docker volume (quakewatch_data) mounted to /data inside the container to demonstrate persistent storage.
 Any files written to /data will be kept even if the container is removed.
+
+.
