@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c2a0c60a-b6bf-4acc-999e-33342b7edbde" name="Changes" comment="Another mission" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;LilyaShv&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/LilyaShv/DevOps_training.git&quot;,
+    &quot;accountId&quot;: &quot;dcf15eb6-dfdd-430d-b552-5605c11697fc&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="35q5LSPd0taLUyutJXfuCQwDx1I" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.app.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\PycharmProjects\DevOps_training\helm\my-app\templates" />
+      <recent name="C:\Users\User\PycharmProjects\DevOps_training\docker" />
+      <recent name="C:\Users\User\PycharmProjects\DevOps_training\app" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.app">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DevOps_training" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\User\PycharmProjects\DevOps_training\app\app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="DevOps_training" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python.app" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-8753aad8314d-d902c0275401-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-252.25557.178" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\User\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c2a0c60a-b6bf-4acc-999e-33342b7edbde" name="Changes" comment="" />
+      <created>1763824704480</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1763824704480</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Creating the simple python flask app">
+      <option name="closed" value="true" />
+      <created>1763825069664</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1763825069664</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Create the Docker to containerize the application.">
+      <option name="closed" value="true" />
+      <created>1763825569012</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1763825569013</updated>
+    </task>
+    <task id="LOCAL-00003" summary="/app">
+      <option name="closed" value="true" />
+      <created>1763825689378</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1763825689378</updated>
+    </task>
+    <task id="LOCAL-00004" summary="docker-compose file">
+      <option name="closed" value="true" />
+      <created>1763826509553</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1763826509553</updated>
+    </task>
+    <task id="LOCAL-00005" summary="README file">
+      <option name="closed" value="true" />
+      <created>1763829003658</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1763829003659</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Updated the README file">
+      <option name="closed" value="true" />
+      <created>1763831125078</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1763831125079</updated>
+    </task>
+    <task id="LOCAL-00007" summary="deployment file">
+      <option name="closed" value="true" />
+      <created>1763837469785</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1763837469786</updated>
+    </task>
+    <task id="LOCAL-00008" summary="service file">
+      <option name="closed" value="true" />
+      <created>1763837517718</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1763837517718</updated>
+    </task>
+    <task id="LOCAL-00009" summary="HPA file">
+      <option name="closed" value="true" />
+      <created>1763837548464</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1763837548464</updated>
+    </task>
+    <task id="LOCAL-00010" summary="ConfigMap file">
+      <option name="closed" value="true" />
+      <created>1763837582202</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1763837582202</updated>
+    </task>
+    <task id="LOCAL-00011" summary="secret file">
+      <option name="closed" value="true" />
+      <created>1763837625897</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1763837625897</updated>
+    </task>
+    <task id="LOCAL-00012" summary="setting cronjob file">
+      <option name="closed" value="true" />
+      <created>1763837665648</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1763837665648</updated>
+    </task>
+    <task id="LOCAL-00013" summary="NEW readme file regarding k8s">
+      <option name="closed" value="true" />
+      <created>1763838050866</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1763838050866</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Refactor files">
+      <option name="closed" value="true" />
+      <created>1768115911851</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1768115911851</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Helm creating">
+      <option name="closed" value="true" />
+      <created>1768116468718</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1768116468718</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Simplified Helm values.yaml to include only relevant parameters for this application">
+      <option name="closed" value="true" />
+      <created>1768117465609</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1768117465609</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Working on the 1 task - Package Management with Helm">
+      <option name="closed" value="true" />
+      <created>1768117753920</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1768117753920</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Another mission">
+      <option name="closed" value="true" />
+      <created>1768119092308</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1768119092308</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Creating the simple python flask app" />
+    <MESSAGE value="Create the Docker to containerize the application." />
+    <MESSAGE value="/app" />
+    <MESSAGE value="docker-compose file" />
+    <MESSAGE value="README file" />
+    <MESSAGE value="Updated the README file" />
+    <MESSAGE value="deployment file" />
+    <MESSAGE value="service file" />
+    <MESSAGE value="HPA file" />
+    <MESSAGE value="ConfigMap file" />
+    <MESSAGE value="secret file" />
+    <MESSAGE value="setting cronjob file" />
+    <MESSAGE value="NEW readme file regarding k8s" />
+    <MESSAGE value="Refactor files" />
+    <MESSAGE value="Helm creating" />
+    <MESSAGE value="Simplified Helm values.yaml to include only relevant parameters for this application" />
+    <MESSAGE value="Working on the 1 task - Package Management with Helm" />
+    <MESSAGE value="Another mission" />
+    <option name="LAST_COMMIT_MESSAGE" value="Another mission" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
