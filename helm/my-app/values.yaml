@@ -1,0 +1,30 @@
+replicaCount: 2
+
+image:
+  repository: lilyashved/devops_training
+  tag: "1.0"
+  pullPolicy: IfNotPresent
+
+containerPort: 5000
+
+configMap:
+  name: quakewatch-config
+
+secret:
+  name: quakewatch-secret
+
+resources:
+  requests:
+    cpu: "100m"
+    memory: "128Mi"
+  limits:
+    cpu: "500m"
+    memory: "256Mi"
+
+probes:
+  liveness:
+    initialDelaySeconds: 10
+    periodSeconds: 10
+  readiness:
+    initialDelaySeconds: 5
+    periodSeconds: 5
